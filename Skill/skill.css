@@ -1,0 +1,190 @@
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes progress-bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progress-python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes progress-MySQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #fff;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  }
+}
+body {
+  background: radial-gradient(circle, #7b337d, #430d4b, white);
+}
+.development_title {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+}
+h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: #ddebf8;
+}
+.skills-bar-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 350px;
+  list-style: none;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.skills-bar-container li {
+  position: relative;
+  width: 100%;
+  padding: 2px 2px;
+}
+.progressbar-title {
+  color: #fff;
+  -webkit-box-reflect: below 1px linear-gradient (transparent, #0008);
+  animation: animate 5s linear infinite;
+}
+.progressbar-title h3 {
+  display: inline-block;
+  position: relative;
+  top: 17px;
+  color: #fff;
+}
+.progressbar-title .percent {
+  position: absolute;
+  right: 2px;
+  top: 40px;
+}
+.bar-container {
+  background: #7b337d;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: -15px;
+}
+.bar-container .progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  border-radius: 5px;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+.progresstomatoes {
+  background: linear-gradient(to bottom, #9ccaf7 0%, #8beafb 100%);
+  box-shadow: 0 0 50px #9ccaf7, 0 0 155px #8beafb,
+    inset 0px 5px 55px 20px rgba(232, 248, 255, 0.7),
+    inset 55px 0 50px 50px #8beafb;
+}
+#progress-html {
+  animation-name: progress-html;
+  animation-delay: 0.7s;
+}
+#progress-css {
+  animation-name: progress-css;
+  animation-delay: 1.4s;
+}
+#progress-javascript {
+  animation-name: progress-javascript;
+  animation-delay: 2.1s;
+}
+#progress-php {
+  animation-name: progress-php;
+  animation-delay: 2.8s;
+}
+#progress-python {
+  animation-name: progress-python;
+  animation-delay: 3.5s;
+}
+#progress-bootstrap {
+  animation-name: progress-bootstrap;
+  animation-delay: 4.2s;
+}
+#progress-MySQL {
+  animation-name: progress-MySQL;
+  animation-delay: 4.9s;
+}
